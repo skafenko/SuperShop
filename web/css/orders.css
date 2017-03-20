@@ -1,0 +1,286 @@
+html
+{
+	background-color:#2980b9;
+	height:100%;
+	width:100%;
+	
+}
+body
+{
+	height:100%;
+	width:auto;
+	margin:0;
+}
+#wrapper
+{
+	margin:43px auto 29px auto; 
+	display:inline-block;
+	position: absolute;
+	width:960px;
+	min-height:calc(100% - 72px);
+	height:auto;
+	left:0;
+	right:0;
+	background-color: #ecf0f1;
+	-webkit-box-shadow:0 0 5px 4px #226997;
+	-moz-box-shadow: 0 0 5px 4px #226997;
+	box-shadow: 0 0 5px 4px #226997;
+}
+
+.navigate
+{
+	color:#95a5a6 !important;
+}
+#orders
+{
+	background-color: #243342;
+	color:#ffffff !important;
+	cursor: pointer;
+}
+#users:hover, #goods:hover
+{
+	background-color: #243342 !important;
+	color:#ffffff !important;
+}
+#users, #goods
+{
+	background-color: #34495e !important;
+}
+#users::before
+{
+	background-position:11px -31px !important;
+}
+#goods::before
+{
+	background-position:11px -62px !important;
+}
+#orders::before
+{
+	background-position:11px 0 !important;
+}
+/* 
+#category::before
+{
+	background-position:11px -93px;
+} 
+*/
+
+
+
+#content
+{
+	
+	width:calc(100% - 180px);
+	min-height:490px;
+	height:auto;
+	margin-left:180px;
+}
+#content h1
+{
+	margin:0 auto;
+	padding-top:20px;
+	width:738px;
+	font:48px "Proxima Nova Light";
+	line-height: 66px;
+	color: #34495e
+	
+}
+#content table
+{
+	width:738px;
+	background-color: #fff;
+	margin:0 auto;
+	font:14px "Proxima Nova Regular";
+	border-collapse:collapse;
+	border:1px solid #dee1e2;
+}
+#content table tr th
+{
+	font: bold 14px "Proxima Nova";
+	color: #95a5a6;
+	text-transform: uppercase;
+	
+}
+#content table tr th:first-child
+{
+	text-align: left;
+	padding-left:25px;
+}
+
+table tr
+{
+	border-bottom:1px solid #dee1e2;
+}
+
+td,th
+{
+	text-align: center;
+}
+th
+{
+	height:46px;
+}
+td
+{
+	height:55px;
+}
+#content table tr td:first-child  
+{
+	color:#3498db;
+	line-height: 18px;
+	width:200px;
+	text-align: left;
+	padding: 10px;
+}
+#content table tr td:first-child  p
+{
+	display:inline;
+	/* margin-left: 25px; */
+}
+#content table tr td:first-child  p span
+{
+	color:#7f8c8d;
+}
+#content table tr td:first-child  p strong
+{
+	font-family:"Proxima Nova Semibold";
+	color:#2c3e50;
+}
+select
+{
+	border:none;
+	font:14px "Proxima Nova Semibold";
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	color: #0a8eaf;
+}
+select:hover
+{
+	background-color: #fff !important;
+	cursor:pointer !important;
+}
+
+:focus {
+    outline:none !important;
+}
+#select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+
+
+.blueText
+{
+	color: #0a8eaf !important;
+}
+.grayText
+{
+	
+	color: #6c6c6c !important;
+}
+.greenText
+{
+	color: #1ba254 !important;
+}
+.yellowText
+{
+	color: #ad5a00 !important;
+}
+.pinkText
+{
+	color: #a01ba2 !important;
+}
+#content table tr td:nth-child(2)
+{
+	width:100px;
+}
+
+#content table tr td:nth-child(3)
+{
+	font-family:"Proxima Nova Semibold";
+	color: #34495e;
+	width:130px;
+}
+#content table tr td:nth-child(4)
+{
+	color:#9c9c9c;
+	width:140px;
+}
+#content table tr td:last-child
+{
+	width:auto;
+	text-align: center;
+}
+#content table tr td:last-child a
+{
+	cursor:url(../images/cursor/link.cur), pointer;
+	color:#8e44ad;
+	font-family:"Proxima Nova Semibold";
+	text-decoration: none;
+	border-bottom:1px solid #ded3ea;
+	margin-right: 20px;
+}
+#content table tr:hover:not(:first-child), tr:hover select
+{
+	background:#f6f8fc ;
+	cursor: pointer;
+}
+#content table tr:hover td:first-child
+{
+	background:url(../images/lilac_line_table.jpg) repeat-y;
+}
+
+#lookOrder [value='просмотр']
+{
+	cursor:url(../images/cursor/link_green.cur), pointer;
+	color:#8e44ad;
+	font:14px "Proxima Nova Semibold";
+	text-decoration: none;
+	margin:0;
+	border-bottom:1px solid #ded3ea;
+}
+[type='submit']
+{
+	border:none;
+	color:#02873a;
+	font:14px "Supermolot Light";
+	cursor: pointer;
+	background:none;
+	border-bottom:1px solid #7bb28d;
+	padding:0;
+	margin:5px 5px 10px;
+}
+#idOrder
+{
+	display:none;
+}
+
+.clear {
+    content: "";
+    display: block;
+    height: 60px;
+	width:736px;
+	border:1px solid #dee1e2;
+	border-top:none;
+	margin:0 auto 25px;
+	background-color:#fff;
+    clear: both;
+ 
+}

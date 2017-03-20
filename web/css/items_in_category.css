@@ -1,0 +1,218 @@
+html
+{
+	background-color:#2980b9;
+	height:100%;
+	width:100%;
+	
+}
+body
+{
+	height:100%;
+	width:auto;
+	margin:0;
+}
+#wrapper
+{
+	margin:43px auto 29px auto; 
+	display:inline-block;
+	position: absolute;
+	width:960px;
+	min-height:calc(100% - 72px);
+	height:auto;
+	left:0;
+	right:0;
+	background-color: #ecf0f1;
+	-webkit-box-shadow:0 0 5px 4px #226997;
+	-moz-box-shadow: 0 0 5px 4px #226997;
+	box-shadow: 0 0 5px 4px #226997;
+}
+
+#content
+{
+	
+	width:calc(100% - 180px);
+	min-height:490px;
+	height:auto;
+	margin-left:180px;
+}
+#content h1
+{
+	margin:0 auto;
+	padding-top:20px;
+	width:738px;
+	font:48px "Proxima Nova Light";
+	line-height: 66px;
+	color: #34495e;
+	text-transform: uppercase;
+}
+.change { color: #099d48; text-decoration: none; font-size: 16px; border-bottom: 1px solid #94cba5;}
+.change:hover {cursor:pointer;}
+#categoryInf>div {height: 325px; width: 738px;}
+#categoryInf>div p{font:italic 38px "Supermolot"; color:#000000; line-height: 36px; margin-left:45px;margin-right:25px;background: rgba(179, 170, 165, 0.5); border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;}
+#categoryInf>div p span{font:14px "Supermolot Light"; line-height: 24px; display:block;}
+#categoryInf>span {float:right;}
+textarea
+{
+	padding:18px 16px;
+	width:339px;
+	height:177px;
+	background-color: #e9e9e9;
+	border:none;
+	font:16px "Supermolot Light";
+	color:#000000;
+	resize:none;
+}
+[type='file'] {display:none;}
+#content table
+{
+	width:738px;
+	background-color: #fff;
+	margin:0 auto;
+	font:16px "Proxima Nova Regular";
+	border-collapse:collapse;
+	border:1px inset #dee1e2;
+}
+#content table tr th
+{
+	font: bold 14px "Proxima Nova";
+	color: #95a5a6;
+	text-transform: uppercase;
+	
+}
+#content table tr th:first-child
+{
+	text-align: left;
+	padding-left:25px;
+}
+
+table tr
+{
+	border-bottom:1px solid #dee1e2;
+	
+}
+
+td,th
+{
+	text-align: center;
+	
+}
+th
+{
+	height:46px;
+}
+td
+{
+	height:55px;
+	padding:0;
+	color:#636363;
+}
+#content table tr td:first-child  
+{
+	color:#2c3e50;
+	width:230px;
+	line-height: 18px;
+	text-align: left;
+	padding-left:40px; 
+	font-family:"Proxima Nova Semibold";
+}
+
+#content table tr td:nth-child(2)
+{
+	width:200px;
+}
+
+#content table tr td:last-child
+{
+	text-align: right;
+	padding-right:20px;
+}
+#content table tr td:last-child a
+{
+	
+	color:#8e44ad;
+	font:14px "Proxima Nova Semibold";
+	text-decoration: none;
+	border-bottom:1px solid #ded3ea;
+	
+}
+#content table tr td:last-child a.delete
+{
+	
+	color:#cb0000;
+	border-bottom:1px solid #f3d3d3;
+	margin-right:35px;
+	
+}
+#content table tr:hover:not(:first-child)
+{
+	background:#f6f8fc ;
+	cursor: pointer;
+}
+#content table tr:hover td:first-child
+{
+	background:url(../images/lilac_line_table.jpg) repeat-y;
+}
+#lookItem [value='просмотр']
+{
+	cursor:url(../images/cursor/link_green.cur), pointer;
+	color:#8e44ad;
+	font:14px "Proxima Nova Semibold";
+	text-decoration: none;
+	margin:0;
+	border-bottom:1px solid #ded3ea;
+}
+#idItem
+{
+	display:none;
+}
+#lookItem
+{
+	display:inline;
+}
+
+#content form
+{
+	width:738px;
+	margin:10px auto 25px;
+	text-align: left;
+	font:16px "Proxima Nova Semibold";
+	color:#2c3e50;
+}
+[type='text']
+{
+	margin:0 10px 0 5px;
+	font:16px "Proxima Nova Light";
+	color:#0d0b0b;
+	padding:6px 7px;
+	width: 224px;
+	border:1px solid #dee1e2;
+}
+[type='submit']
+{
+	border:none;
+	color:#02873a;
+	font:14px "Supermolot Light";
+	cursor: pointer;
+	background:none;
+	border-bottom:1px solid #7bb28d;
+	padding:0;
+	margin:0;
+}
+[value='Добавить товар']
+{
+	font-size: 16px;
+	float:right;	
+	margin-bottom:15px;
+}
+
+.clear {
+    content: "";
+    display: block;
+    height: 25px;
+	width:736px;
+	border:1px solid #dee1e2;
+	border-top:none;
+	margin:0 auto 25px;
+	background-color:#fff;
+}
+ .hidden {display:none;}

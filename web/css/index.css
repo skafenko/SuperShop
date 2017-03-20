@@ -1,0 +1,262 @@
+@font-face {
+    font-family:Supermolot; 
+    src: url(../fonts/Supermolot Light.otf); 
+}
+body
+{
+	margin:0 auto;
+	background-color: #e4e0d6;
+	max-width:1400px;
+	min-width:1200px;
+}
+	
+
+#wrapper
+{
+	height:auto;
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	background-size: 100% 100%;
+}
+#wrapper>div#superShop
+{
+	margin:-210px auto;
+	color:#333333;
+	font:italic bold 190px Supermolot;
+	overflow:hidden;
+	width:1200px;
+	opacity:0.08;
+	
+}
+.name
+{
+	text-transform: uppercase;
+	font: italic bold 65px Supermolot;
+	color:#000000;
+	line-height:63px;
+	margin-bottom:8px;
+	width:670px;
+	padding-left:10px;
+	background: rgba(179, 170, 165, 0.5); 
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+}
+.inf
+{
+	text-transform: none;
+	line-height:24px;
+	color:#ffffff;
+	font: 16px Supermolot;
+	width:565px;
+	padding-left:10px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius:8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;	
+}
+#offer
+{
+	width:1170px;
+	margin:90px auto 0px;
+	position:relative;
+	z-index:1;
+}
+#look
+{
+	margin-top:60px; margin-bottom:100px;
+	margin-left:315px;
+	width:250px;
+	height:60px;
+	border:3px solid #ed1651;
+	font:italic 18px Supermolot;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6); 
+}
+#look a
+{
+	text-decoration: none;
+	color:#ffffff;
+	display:block;
+	height:inherit;
+	padding-top: 16px;
+}
+#newGoods
+{
+	height:78px;
+	background-color: #ffffff;
+	margin:130px auto 0;
+}
+#newGoods p
+{
+	font:18px Supermolot;
+	margin:30px auto auto 30px;
+	position:absolute;
+}
+#newGoods .first
+{
+	margin-top:32px;
+	margin-left:1104px;
+}
+#Goods
+{
+	width:1170px;
+	height:730px;
+	margin:-78px auto 20px;
+	position:relative;
+	background-color: #fff;
+}
+
+div#things
+{
+	background-color: #f6f6f6;
+	height:652px;
+}
+
+
+
+#banners
+{
+	width:1170px;
+	height:310px;
+	margin:0 auto 20px;
+} 
+#banners form.floatLeft
+{
+	position:relative;
+	cursor:pointer;
+}
+#banners img[alt="layer4"]
+{
+	-webkit-box-shadow:-1px 1px #d1cec4;
+	-moz-box-shadow: -1px 1px #d1cec4;
+	box-shadow: -1px 1px #d1cec4;
+}
+#banners img[alt="layer5"]
+{
+	-webkit-box-shadow:0px 1px #d1cec4;
+	-moz-box-shadow: 0px 1px #d1cec4;
+	box-shadow: 0px 1px #d1cec4;
+}
+#banners img[alt="layer6"]
+{
+	-webkit-box-shadow:1px 1px #d1cec4;
+	-moz-box-shadow: 1px 1px #d1cec4;
+	box-shadow: 1px 1px #d1cec4;
+}
+#banners span
+{
+	position:absolute;
+	bottom: 0;
+	left:20px;
+	font-size: 32px;
+	line-height: 36px;
+	width:260px;
+}
+#banners em
+{
+	position:absolute;
+	top:260px;
+	left:20px;
+	font-size: 32px;
+	line-height: 36px;
+	width:260px;
+}
+div#layer5 span
+{
+	padding-left: 20px;
+	width: 250px;
+}
+div#layer6 span, div#layer6 em
+{
+	color: #fff;
+}
+#PGoods
+{
+	width:1170px;
+	height:405px;
+	margin:0 auto 20px;
+	position:relative;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 0 1px #d1cec4;
+    -moz-box-shadow: 0px 1px 0 1px #d1cec4;
+    box-shadow: 0px 1px 0 1px #d1cec4;
+}
+#PGoods #newGoods
+{
+	margin:0 auto;
+}
+#PGoods div.floatLeft
+{
+	height:327px;
+	width:291px;
+	margin:1px 1px 1px 0;
+}
+div#things1
+{
+	background-color: #f6f6f6;
+	height:325px;
+}
+
+#info
+{
+	width:1170px;
+	height:311px;
+	background-image: url(../images/layer9.jpg);
+	margin:0 auto 20px;
+	-webkit-box-shadow:-1px 1px #d1cec4;
+	-moz-box-shadow: -1px 1px #d1cec4;
+	box-shadow:0px 1px 0 1px #d1cec4;
+	overflow:hidden;
+	
+	
+}
+#about
+{
+	margin:45px 155px 20px 500px;
+	font:14px "Supermolot Light";
+	color:#222429;
+	line-height: 24px;
+}
+#about p
+{
+	margin:0;
+	font: italic bold 24px Supermolot;
+	color:#021562;
+}
+footer{
+	background:#01104c;
+	width:1170px;
+	margin:0 auto 35px;
+}
+footer ul
+{
+	list-style-type:none;
+	width:700px;
+}
+footer ul li{
+	font:11px "Supermolot Light";
+	color:#999999;
+	line-height: 13px;
+}
+footer a{
+	background:url(../images/arrowUp.png)no-repeat 58px 14px;
+	font-size:16px;
+	color:#ffffff;
+	float:left;
+	padding:10px 25px 0 0;
+	margin-top:20px;
+	margin-left:320px;
+	text-decoration:none;
+}
+footer::after {
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+
+

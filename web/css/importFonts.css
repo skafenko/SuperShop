@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Bender Bold Italic';
+    src: url('../fonts/BenderBoldItalic.eot');
+    src: url('../fonts/BenderBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/BenderBoldItalic.woff2') format('woff2'),
+         url('../fonts/BenderBoldItalic.woff') format('woff'),
+         url('../fonts/BenderBoldItalic.ttf') format('truetype'),
+         url('../fonts/BenderBoldItalic.svg#BenderBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'Bender';
+    src: url('../fonts/Bender.eot');
+    src: url('../fonts/Bender.eot') format('embedded-opentype'),
+         url('../fonts/Bender.woff2') format('woff2'),
+         url('../fonts/Bender.woff') format('woff'),
+         url('../fonts/Bender.ttf') format('truetype'),
+         url('../fonts/Bender.svg#Bender') format('svg');
+}
+@font-face {
+    font-family: 'Bender Bold';
+    src: url('../fonts/BenderBold.eot');
+    src: url('../fonts/BenderBold.eot') format('embedded-opentype'),
+         url('../fonts/BenderBold.woff2') format('woff2'),
+         url('../fonts/BenderBold.woff') format('woff'),
+         url('../fonts/BenderBold.ttf') format('truetype'),
+         url('../fonts/BenderBold.svg#BenderBold') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Black Italic';
+    src: url('../fonts/SupermolotBlackItalic.eot');
+    src: url('../fonts/SupermolotBlackItalic.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotBlackItalic.woff2') format('woff2'),
+         url('../fonts/SupermolotBlackItalic.woff') format('woff'),
+         url('../fonts/SupermolotBlackItalic.ttf') format('truetype'),
+         url('../fonts/SupermolotBlackItalic.svg#SupermolotBlackItalic') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Black';
+    src: url('../fonts/SupermolotBlack.eot');
+    src: url('../fonts/SupermolotBlack.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotBlack.woff2') format('woff2'),
+         url('../fonts/SupermolotBlack.woff') format('woff'),
+         url('../fonts/SupermolotBlack.ttf') format('truetype'),
+         url('../fonts/SupermolotBlack.svg#SupermolotBlack') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Bold Italic';
+    src: url('../fonts/SupermolotBoldItalic.eot');
+    src: url('../fonts/SupermolotBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotBoldItalic.woff2') format('woff2'),
+         url('../fonts/SupermolotBoldItalic.woff') format('woff'),
+         url('../fonts/SupermolotBoldItalic.ttf') format('truetype'),
+         url('../fonts/SupermolotBoldItalic.svg#SupermolotBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Bold';
+    src: url('../fonts/SupermolotBold.eot');
+    src: url('../fonts/SupermolotBold.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotBold.woff2') format('woff2'),
+         url('../fonts/SupermolotBold.woff') format('woff'),
+         url('../fonts/SupermolotBold.ttf') format('truetype'),
+         url('../fonts/SupermolotBold.svg#SupermolotBold') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Italic';
+    src: url('../fonts/SupermolotItalic.eot');
+    src: url('../fonts/SupermolotItalic.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotItalic.woff2') format('woff2'),
+         url('../fonts/SupermolotItalic.woff') format('woff'),
+         url('../fonts/SupermolotItalic.ttf') format('truetype'),
+         url('../fonts/SupermolotItalic.svg#SupermolotItalic') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Light Italic';
+    src: url('../fonts/SupermolotLightItalic.eot');
+    src: url('../fonts/SupermolotLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotLightItalic.woff2') format('woff2'),
+         url('../fonts/SupermolotLightItalic.woff') format('woff'),
+         url('../fonts/SupermolotLightItalic.ttf') format('truetype'),
+         url('../fonts/SupermolotLightItalic.svg#SupermolotLightItalic') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Light';
+    src: url('../fonts/SupermolotLight.eot');
+    src: url('../fonts/SupermolotLight.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotLight.woff2') format('woff2'),
+         url('../fonts/SupermolotLight.woff') format('woff'),
+         url('../fonts/SupermolotLight.ttf') format('truetype'),
+         url('../fonts/SupermolotLight.svg#SupermolotLight') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot';
+    src: url('../fonts/Supermolot.eot');
+    src: url('../fonts/Supermolot.eot') format('embedded-opentype'),
+         url('../fonts/Supermolot.woff2') format('woff2'),
+         url('../fonts/Supermolot.woff') format('woff'),
+         url('../fonts/Supermolot.ttf') format('truetype'),
+         url('../fonts/Supermolot.svg#Supermolot') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Thin';
+    src: url('../fonts/SupermolotThin.eot');
+    src: url('../fonts/SupermolotThin.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotThin.woff2') format('woff2'),
+         url('../fonts/SupermolotThin.woff') format('woff'),
+         url('../fonts/SupermolotThin.ttf') format('truetype'),
+         url('../fonts/SupermolotThin.svg#SupermolotThin') format('svg');
+}
+@font-face {
+    font-family: 'Supermolot Thin Italic';
+    src: url('../fonts/SupermolotThinItalic.eot');
+    src: url('../fonts/SupermolotThinItalic.eot') format('embedded-opentype'),
+         url('../fonts/SupermolotThinItalic.woff2') format('woff2'),
+         url('../fonts/SupermolotThinItalic.woff') format('woff'),
+         url('../fonts/SupermolotThinItalic.ttf') format('truetype'),
+         url('../fonts/SupermolotThinItalic.svg#SupermolotThinItalic') format('svg');
+}

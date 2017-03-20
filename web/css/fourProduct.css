@@ -1,0 +1,60 @@
+.product_price
+{
+	height:325px;
+	width:291px;
+	margin:1px 1px 1px 0;
+	position: relative;
+	z-index:0;
+	overflow:hidden;
+	vertical-align: top;
+}
+.product_price:after{display:block;height: 17px;width: 196px;box-shadow: inset 0px -50px 18px -36px rgb(255, 255, 255);bottom: 0px;position:absolute;content:"";box-sizing:border-box;left:0;z-index: 200;}
+.product_price:hover {cursor: pointer; z-index:12; /*overflow:inherit;*/ }
+.product_price:hover .wrap{position: absolute;z-index: 111;top:0; background-color: #fff; outline:2px solid #000; box-sizing:border-box;}
+.product_price:hover:after{box-shadow:none;}
+.image
+{
+	height:240px;
+	width:291px;
+	overflow:hidden;
+	vertical-align: middle;
+	text-align: center;
+	position:relative;
+	background-color: #fff;
+}
+img[alt="hot"], img[alt="new"], img[alt="sale"]
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.namePrice
+{
+	height:70px;
+	text-align: center;
+	font:italic 18px "Supermolot Light";
+	color: #ed1651;
+	background-color: #ffffff;
+	padding-top:15px;
+	
+}
+div.namePrice p.floatLeft
+{
+	color: #555;
+	font: 14px Supermolot;
+	line-height: 18px;
+	margin:0 0 0 20px;
+	width:155px;
+}
+div.namePrice em
+{
+	display:block;
+}
+div.namePrice span
+{
+	font-size: 14px;
+	color: #999;
+	text-decoration: line-through;
+	margin:0 0 0 187px;
+	display:block;
+}

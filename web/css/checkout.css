@@ -1,0 +1,444 @@
+body
+{
+	margin:0 auto;
+	background-color: #e4e0d6;
+	max-width:1400px;
+	min-width:1200px;
+}
+
+/* category and come back */
+body>p
+{
+	text-transform: uppercase;
+	width:1170px;
+	font:italic 72px "Supermolot Light";
+	color:#000000;
+	line-height:60px;
+	margin: 50px auto 25px;
+}
+
+
+/* shopping_cart */
+#accordion
+{
+	width:1170px;
+	height:auto;
+	margin:0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 0 1px #d1cec4;
+    -moz-box-shadow: 0px 1px 0 1px #d1cec4;
+    box-shadow: 0px 1px 0 1px #d1cec4;
+}
+
+.checked
+{
+	width:inherit;
+	height:78px;
+	background-color: #222429 !important;
+}
+.checked p 
+{
+	color:#ffffff !important;
+}
+#title p, #step2 p, #step3 p
+{
+	display:inline-block;
+	width:auto;
+	text-align: left;
+	vertical-align: middle;
+	font:bold 24px Supermolot;
+	color:#ffffff;
+	margin-left: 30px;
+}
+#title p span, #step2 p span, #step3 p span
+{
+	color:#ed1651;
+}
+legend
+{
+	padding:0;
+}
+#adress, #newCustomer
+{
+	height:auto;
+	width:392px;
+	margin-left: 30px;
+	margin-right: 50px;
+}
+#adress div.floatLeft
+{
+	margin-right:35px;
+}
+#adress p, #delivery p, #comments p, #newCustomer p, #login p
+{
+	font:bold 18px Supermolot;
+	color:#ed1651;
+	margin-top: 34px;
+}
+#login a 
+{
+	color:#343434;
+	font:14px "Supermolot Light";
+}
+label
+{
+	font:14px "Supermolot Light";
+	line-height: 18px;
+	color:#999999;
+	margin-bottom: 5px;
+	display:inline-block;
+	cursor: pointer;
+}
+label>span
+{
+	font-size:12px;
+	color:red;
+}
+[type="text"], [type="password"]
+{
+	height:47px;
+	width:375px;
+	border:none;
+	background-color: #e9e9e9;
+	margin-bottom: 15px;
+	padding-left: 17px;
+	font:16px "Supermolot Light";
+	color:#000000;
+}
+[name="house"], [name="flat"]
+{
+	width:161px;
+}
+[value="Продолжить"], [value="Войти"]
+{
+	background-color:#ed1651;
+	height:49px;
+	width:155px;
+	border:none;
+	font:18px "Supermolot Light";
+	color:#ffffff;
+	margin-top:35px;
+}
+[value="Войти"]
+{
+	width:100px;
+	margin-right: 25px;
+}
+[type="radio"]
+{
+	margin:5px 12px 40px 0;
+	float:left;
+	
+}
+input:invalid {
+    background-image: url(../images/invalid.png);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+input:valid:not([type="submit"]) {
+    background-image:url(../images/valid.png);
+	background-repeat:no-repeat;
+	background-position: 98% 50%;
+}
+
+
+#delivery
+{
+	width:245px;
+	height:auto;
+	margin-right: 50px;
+}
+.label
+{
+	color:#000000;
+	font:16px "Supermolot Light";
+	margin:0;
+	display:inline-block;
+}
+.radio + label
+{
+	cursor:pointer;
+}
+.radio:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.radio:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 27px; 
+}
+.radio:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width:15px;
+  height:15px;
+  background-image:url(../images/radioPassive.png);
+}
+.radio:checked + label:before {
+ background-image:url(../images/radioActive.png);
+}
+
+
+#comments
+{
+	margin:0;
+	height:auto;
+	width:400px;
+}
+#comments textarea
+{
+	padding:18px 16px;
+	width:339px;
+	height:177px;
+	background-color: #e9e9e9;
+	border:none;
+	font:16px "Supermolot Light";
+	color:#000000;
+	resize:none;
+}
+
+#step3, #step2, #title
+{
+	background-color: #ffffff;
+	border-top:2px solid #f6f6f6;
+}
+#step3 p, #step2 p, #title p
+{
+	color:#000000;
+}
+
+.clear 
+{
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+	margin-bottom:55px;
+}
+
+::-webkit-input-placeholder {color:red; font-style: italic;}
+::-moz-placeholder          {color:red; font-style: italic;}/* Firefox 19+ */
+:-moz-placeholder           {color:red; font-style: italic;}/* Firefox 18- */
+:-ms-input-placeholder      {color:red; font-style: italic;}
+
+textarea::-webkit-input-placeholder, #flat::-webkit-input-placeholder
+{
+	color:green !important;
+}
+textarea::-moz-placeholder, #flat::-moz-placeholder            {color:green !important;}/* Firefox 19+ */
+textarea:-moz-placeholder, #flat:-moz-placeholder            {color:green !important;}/* Firefox 18- */
+textarea:-ms-input-placeholder, #flat:-ms-input-placeholder     {color:green !important;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+/* step 3 */
+caption, #deliveryCheck>p
+{
+    font: bold 18px Supermolot;
+    color: #ed1651;
+    margin-top: 34px;
+	
+}
+table
+{
+	border-collapse:collapse;
+	width:100%;
+	border:none;
+}
+table tr#titleTable
+{
+	height:auto;
+}
+table tr#titleTable th, #deliveryCheck ul li p
+{
+	font:14px "Supermolot Light";
+	color:#999999;
+	line-height: 30px;
+	padding:8px 0;	
+}
+table tr#titleTable th:first-child, caption
+{
+	text-align: left;
+	padding-left: 30px;
+}
+table tr th
+{
+	border-bottom:2px solid #f6f6f6;
+}
+td
+{
+	padding:15px 0;
+}
+table tr td:first-child
+{
+	text-align: left;
+	padding-left: 30px;
+	width:400px;
+	height:auto;
+	font:18px "Supermolot Light";
+	color:#555555;
+	vertical-align: middle;
+    position: relative;
+    background-color: #fff;
+}
+table tr td:nth-child(2)
+{
+	width:200px;
+	color: #5d5d5d;
+	text-align: center;
+	font:italic 18px "Supermolot Light";
+}
+table tr td:nth-child(3), td:nth-child(4)
+{
+	width:152px;
+	color: #5d5d5d;
+	text-align: center;
+	font:italic 18px "Supermolot Light";
+}
+table tr td:nth-child(4)
+{
+	width:125px;
+}
+table tr td:nth-child(5)
+{
+	width:auto;
+	text-align: center;
+	font:italic bold 18px Supermolot;
+	color:#000000;
+}
+#check>p
+{
+	text-align: right;
+	margin:35px 50px 22px 0;
+	font:italic bold 24px Supermolot;
+	color:#000000;
+}
+#check>p span
+{
+	margin-left:30px;
+	font-size:30px;
+}
+
+
+/* delivery */
+ #deliveryCheck
+{
+	width:auto;
+	padding:0 30px 0;
+	margin:0;
+}
+ #deliveryCheck>p
+{
+	margin:30px 0 0;
+}
+ #deliveryCheck ul li p
+{
+	line-height: 18px;
+	margin:0;
+}
+#deliveryCheck ul li p span
+{
+	font:18px "Supermolot Light";
+	color:#0d0b0b;
+	margin-bottom:5px;
+	display:inline-block;
+}
+ul li 
+{
+	list-style:none;
+	/* height:100%; */
+}
+#customer
+{
+	width:auto;
+	display:inline-block;
+	padding:0;
+	margin-right:100px;
+}
+#adressCheck
+{
+	width:auto;
+	display:inline-block;
+	padding:0;
+	margin-right:188px;
+}
+#adressCheck li.floatLeft
+{
+	margin-right:50px;
+}
+#adressCheck li.floatLeft + li
+{
+	float:right;
+}
+#comment
+{
+	width:auto;
+	max-width:500px;
+	display:inline-block;
+	padding:0;
+}
+
+ul#comment li:first-child
+{
+	width:220px;
+}
+
+
+#confirm
+{
+	background-color:#ed1651;
+	height:auto;
+	width:auto;
+	border:none;
+	display:inline-block;
+	font:18px "Supermolot Light";
+	color:#ffffff;
+	padding:22px 30px 18px 28px;
+	margin:30px 0 27px 30px;
+	text-decoration:none;
+}
+
+
+
+
+/* footer */
+
+footer{
+	background:#01104c;
+	width:1170px;
+	margin:20px auto 35px;
+}
+footer ul
+{
+	list-style-type:none;
+	width:700px;
+}
+footer ul li{
+	font:11px "Supermolot Light";
+	color:#999999;
+	line-height: 13px;
+}
+footer a{
+	background:url(../images/arrowUp.png)no-repeat 58px 14px;
+	font-size:16px;
+	color:#ffffff;
+	float:left;
+	padding:10px 25px 0 0;
+	margin-top:20px;
+	margin-left:320px;
+	text-decoration:none;
+}
+footer::after {
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+

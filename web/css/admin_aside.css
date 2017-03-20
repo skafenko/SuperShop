@@ -1,0 +1,95 @@
+aside
+{
+	background-color: #34495e;
+	width:180px;
+	min-height:490px;
+	height:100%;
+	float:left;
+	position: absolute;
+	
+}
+aside a
+{
+	text-decoration: none;
+}
+#top
+{
+	background-color: #2ecc71;
+	padding:18px 36px 13px 39px;
+	color: #ffffff;
+    font: 33px Supermolot;
+    line-height: 25px;
+}
+#top span 
+{
+    font: bold 41px Supermolot;
+    line-height: 36px;
+}
+.navigate
+{
+	margin:20px 0;
+	padding:20px 0;
+	font:14px "Proxima Nova Regular";
+	color:#95a5a6;
+	text-transform: uppercase;
+}
+div.navigate::before
+{
+	content:"";
+	background-image:url(../images/icons.png);
+	background-repeat:no-repeat;
+	-ms-background-position-x: 11px;
+	background-position-x: 11px;
+	display:block;
+	float:left;
+	margin-top:-10px;
+	height:31px;
+	width:45px;
+	margin-right:13px;
+}
+#goods
+{
+	background-color: #243342;
+	color:#ffffff;
+	cursor: pointer;
+}
+#users:hover, #orders:hover
+{
+	background-color: #243342;
+	color:#ffffff;
+	cursor: pointer;
+}
+
+#orders::before
+{
+	background-position:11px -155px;
+}
+#users::before
+{
+	background-position:11px -31px;
+}
+#goods::before
+{
+	background-position:11px -186px;
+}
+
+#user
+{
+	font:16px "Proxima Nova Regular";
+	color:#ffffff;
+	text-align: center;
+	line-height: 21px;
+	margin-bottom:22px;
+	position:absolute;
+	bottom:0px;
+	left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#user form 
+{
+	cursor: pointer;
+	color:#2ecc71;
+}
+.hidden {display:none !important;}

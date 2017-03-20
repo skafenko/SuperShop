@@ -1,0 +1,29 @@
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.sprite-arrowLeft {
+    width: 13px;
+    height: 17px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrowRight {
+    width: 13px;
+    height: 17px;
+    background-position: -5px -32px;
+}
+
+.sprite-arrowRightHover {
+    width: 13px;
+    height: 17px;
+    background-position: -5px -59px;
+}
+
+.sprite-arrowLeftHover {
+    width: 13px;
+    height: 17px;
+    background-position: -5px -86px;
+}

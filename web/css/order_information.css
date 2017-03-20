@@ -1,0 +1,379 @@
+html
+{
+	background-color:#2980b9;
+	height:100%;
+	width:100%;
+	
+}
+body
+{
+	height:100%;
+	width:auto;
+	margin:0;
+}
+#wrapper
+{
+	margin:43px auto 29px auto; 
+	display:inline-block;
+	position: absolute;
+	width:960px;
+	min-height:calc(100% - 72px);
+	height:auto;
+	left:0;
+	right:0;
+	background-color: #ecf0f1;
+	-webkit-box-shadow:0 0 5px 4px #226997;
+	-moz-box-shadow: 0 0 5px 4px #226997;
+	box-shadow: 0 0 5px 4px #226997;
+}
+.navigate
+{
+	color:#95a5a6 !important;
+}
+#orders
+{
+	background-color: #243342;
+	color:#ffffff !important;
+	cursor: pointer;
+}
+#users:hover, #goods:hover
+{
+	background-color: #243342 !important;
+	color:#ffffff !important;
+}
+#users, #goods
+{
+	background-color: #34495e !important;
+}
+#users::before
+{
+	background-position:11px -31px !important;
+}
+#goods::before
+{
+	background-position:11px -62px !important;
+}
+#orders::before
+{
+	background-position:11px 0 !important;
+}
+/* 
+#category::before
+{
+	background-position:11px -93px;
+} 
+*/
+#content
+{
+	
+	width:calc(100% - 180px);
+	min-height:490px;
+	height:auto;
+	margin-left:180px;
+}
+#content h1
+{
+	margin:0 auto;
+	padding-top:20px;
+	width:738px;
+	font:48px "Proxima Nova Light";
+	line-height: 66px;
+	color: #34495e
+	
+}
+#content h1 span
+{
+	color:#3498db;
+}
+#content h1 i
+{
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #ad5a00;
+	font-style: normal;
+	border-bottom:1px dashed red;
+}
+.blueText
+{
+	color: #0a8eaf !important;
+	border-color:#0a8eaf !important;
+}
+.grayText
+{
+	border-color:#6c6c6c !important;
+	color: #6c6c6c !important;
+}
+.greenText
+{
+	color: #1ba254 !important;
+	border-color:#1ba254 !important;
+}
+.yellowText
+{
+	color: #ad5a00 !important;
+	border-color:#ad5a00 !important;
+}
+.pinkText
+{
+	color: #a01ba2 !important;
+	border-color:#a01ba2 !important;
+}
+.order
+{
+	margin:0 auto;
+	width: 738px;
+	height: auto;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px rgba(0,0,0,.1);
+	border: solid 1px #dee1e2;
+}
+table 
+{
+    border-collapse: collapse;
+    width: inherit;
+    border: none;
+	font:14px "Proxima Nova Regular";
+}
+caption, tr
+{
+	border-bottom:1px solid #dee1e2;
+}
+caption
+{
+    color: #95a5a6;
+    text-transform: uppercase;
+	text-align: left;
+    padding: 15px 30px;
+	font-family: "Proxima Nova";
+	font-weight:bold;
+}
+table tr td:first-child 
+{
+    text-align: left;
+    width: auto;
+	padding:15px 10px 15px 30px;
+    height: auto;
+	color:#3498db;
+    vertical-align: middle;
+    position: relative;
+	text-transform: uppercase;
+}
+table tr td:nth-child(2)
+{
+    width: 60px;
+    color: #34495e;
+    text-align: center;
+}
+table tr td:nth-child(3)
+{
+    width: 100px;
+    color: #34495e;
+    text-align: center;
+}
+td:nth-child(4) 
+{
+	width: 80px;
+    color: #34495e;
+    text-align: center;
+}
+td:nth-child(4) span
+{
+	outline:1px solid #dee1e2;
+	padding:0 13px;
+	height: 27px;
+	line-height: 27px;
+	display: inline-block;
+	margin:15px 0;
+}
+td:nth-child(5) 
+{
+	font-family:"Proxima Nova Semibold";
+	width: 130px;
+    color: #34495e;
+    text-align: center;
+}
+td:nth-child(6) 
+{
+	width: 160px;
+    text-align: center;
+	cursor: pointer;
+	
+}
+td:nth-child(6) form 
+{
+	color: #c73b3b;
+	font-family:"Proxima Nova Semibold";
+	margin:0;
+	text-decoration: underline;
+	cursor:url(../images/cursor/link_green.cur), pointer;
+}
+.span
+{
+	float:right;
+	width:auto;
+	font: 43px "Proxima Nova Light";
+	margin:15px 20px 15px 12px;
+}
+.p 
+{
+	margin:25px 20px 15px 12px;
+	width:auto;
+	text-align: right;
+	color: #3498db;
+	font: bold 16px "Proxima Nova Bold";
+	text-transform: uppercase;
+}
+
+.information
+{
+	margin:20px auto 25px;
+	width: 738px;
+	height: auto;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px rgba(0,0,0,.1);
+	border: solid 1px #dee1e2;
+}
+.information>p 
+{
+	color: #95a5a6;
+	font:14px "Proxima Nova Bold";
+	margin:0;
+	padding:15px 0 15px 25px;
+	text-transform: uppercase;
+	border-bottom:1px solid #dee1e2;
+}
+.information>ul
+{
+	width:auto;
+	padding-left:20px;
+	margin-top:20px;
+}
+
+.information>ul ul li p, #comment
+{
+	line-height: 18px;
+	margin:0;
+	padding-left:5px;
+	color:#999999;
+	font:14px "Proxima Nova Light";
+}
+.information>ul ul li p span, #comment span
+{
+	font-size:18px;
+	color:#0d0b0b;
+	margin-bottom:5px;
+	margin-left:-5px;
+	display:inline-block;
+	width:calc(100% - 5px);
+	outline:1px solid #dee1e2;
+	padding-left:5px;
+}
+ul li 
+{
+	list-style:none;
+	/* height:100%; */
+	margin-bottom:15px;
+}
+#customer
+{
+	float:left;
+	width:240px;
+	display:inline-block;
+	padding:0;
+	margin-right:25px;
+}
+#adress
+{
+	float:left;
+	width:215px;
+	display:inline-block;
+	padding:0;
+	margin-right:30px;
+}
+ul#adress  li:last-child span
+{
+	width:auto;
+	padding-right:15px
+}
+#adress li.floatLeft
+{
+	float:left;
+	margin-right:36px;
+	
+}
+#adress li.floatLeft span
+{
+	padding-right:25px;
+	width:auto;
+}
+#delivery
+{
+	float:rigth;
+	width:185px;
+	display:inline-block;
+	padding:0;
+	margin:0;
+}
+#delivery p 
+{
+	padding:0;
+}
+#delivery span
+{
+	outline:none;
+	padding:0;
+	margin:0;
+	font-size: 16px;
+}
+#comment
+{
+	margin-left:20px;
+	clear:both;
+	margin-bottom:25px;
+}
+#comment span
+{
+	width:485px;
+	min-height:78px;
+}
+
+[type='submit'] {
+    border: none;
+    color: #ad0000;
+    font: 18px "Supermolot Light";
+    cursor: pointer;
+    background: none;
+    border-bottom: 1px solid #f3d3d3;
+    padding: 0;
+    margin:0 20px 25px 20px;
+}
+[name='cancel']
+{
+	float:right;
+}
+[name='delete']
+{
+	float:left;
+	text-align: left !important;
+}
+.clear {
+    content: "";
+    display: block;
+    height:0;
+	width:0;
+	border-top:none;
+	margin:0;
+	background-color:#fff;
+    clear: both;
+	visibility:hidden;
+}

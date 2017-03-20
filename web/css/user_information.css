@@ -1,0 +1,294 @@
+html
+{
+	background-color:#2980b9;
+	height:100%;
+	width:100%;
+	
+}
+body
+{
+	height:100%;
+	width:auto;
+	margin:0;
+}
+#wrapper
+{
+	margin:43px auto 29px auto; 
+	display:inline-block;
+	position: absolute;
+	width:960px;
+	min-height:calc(100% - 72px);
+	height:auto;
+	left:0;
+	right:0;
+	background-color: #ecf0f1;
+	-webkit-box-shadow:0 0 5px 4px #226997;
+	-moz-box-shadow: 0 0 5px 4px #226997;
+	box-shadow: 0 0 5px 4px #226997;
+}
+.navigate
+{
+	color:#95a5a6 !important;
+}
+
+#users
+{
+	background-color: #243342;
+	color:#ffffff !important;
+	cursor: pointer;
+}
+#orders:hover, #goods:hover
+{
+	background-color: #243342 !important;
+	color:#ffffff !important;
+}
+#orders, #goods
+{
+	background-color: #34495e !important;
+}
+
+#orders::before
+{
+	background-position:11px -155px !important;
+}
+#users::before
+{
+	background-position:11px -124px !important;
+}
+#goods::before
+{
+	background-position:11px -62px !important;
+}
+/* 
+#category::before
+{
+	background-position:11px -93px;
+} 
+*/
+#content
+{
+	
+	width:calc(100% - 180px);
+	min-height:490px;
+	height:auto;
+	margin-left:180px;
+}
+#content h1
+{
+	margin:0 auto;
+	padding-top:20px;
+	width:738px;
+	font:48px "Proxima Nova Light";
+	line-height: 66px;
+	color: #34495e;
+	text-transform:uppercase;
+}
+
+.order
+{
+	margin:0 auto 15px;
+	width: 738px;
+	height: auto;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px rgba(0,0,0,.1);
+	border: solid 1px #dee1e2;
+}
+table 
+{
+    border-collapse: collapse;
+    width: inherit;
+    border: none;
+	font:14px "Proxima Nova Regular";
+}
+caption, tr
+{
+	border-bottom:1px solid #dee1e2;
+}
+caption
+{
+    color: #95a5a6;
+    text-transform: uppercase;
+	text-align: left;
+    padding: 15px 25px;
+	font-family: "Proxima Nova";
+	font-weight: bold;
+}
+table tr td:first-child 
+{
+    text-align: left;
+	padding:15px 0 15px 30px;
+	color:#3498db;
+	width: 140px;
+    vertical-align: middle;
+	text-transform: uppercase;
+}
+table tr td:nth-child(2)
+{
+    width: 280px;
+    color: #34495e;
+    text-align: center;
+	font-family: "Proxima Nova Semibold";
+}
+
+td:last-child 
+{
+    text-align: center;
+	color: #34495e;
+	padding-right:50px;
+	text-align: right;
+	
+}
+
+.span
+{
+	float:right;
+	width:auto;
+	font: 43px "Proxima Nova Light";
+	margin:15px 20px 15px 12px;
+}
+.p 
+{
+	margin:25px 20px 15px 12px;
+	width:auto;
+	text-align: right;
+	color: #3498db;
+	font: bold 16px "Proxima Nova Bold";
+	text-transform: uppercase;
+}
+
+.information
+{
+	margin:0 auto 15px;
+	width: 738px;
+	height: auto;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px rgba(0,0,0,.1);
+	border: solid 1px #dee1e2;
+}
+.information>p 
+{
+	color: #95a5a6;
+	font: bold 14px "Proxima Nova";
+	margin:0;
+	padding:15px 0 15px 25px;
+	text-transform: uppercase;
+	border-bottom:1px solid #dee1e2;
+}
+.information>ul
+{
+	width:auto;
+	padding-left:20px;
+	margin-top:20px;
+}
+
+.information>ul ul li p
+{
+	line-height: 18px;
+	margin:0;
+	padding-left:5px;
+	color:#999999;
+	font:14px "Proxima Nova Light";
+}
+.information>ul ul li p span
+{
+	font-size:18px;
+	color:#0d0b0b;
+	margin-bottom:5px;
+	margin-left:-5px;
+	display:inline-block;
+	width:calc(100% - 5px);
+	outline:1px solid #dee1e2;
+	padding-left:5px;
+}
+ul li 
+{
+	list-style:none;
+	/* height:100%; */
+	margin-bottom:15px;
+}
+ul li span
+{
+	min-height:25px;
+	text-align: left;
+	min-width:60px;
+}
+#customer
+{
+	float:left;
+	width:240px;
+	display:inline-block;
+	padding:0;
+	margin-right:25px;
+}
+#adress
+{
+	float:left;
+	width:215px;
+	display:inline-block;
+	padding:0;
+	margin-right:30px;
+}
+ul#adress  li:last-child span
+{
+	width:auto;
+	padding-right:15px
+}
+#adress li.floatLeft
+{
+	float:left;
+	margin-right:36px;
+	
+}
+#adress li.floatLeft span
+{
+	padding-right:25px;
+	width:auto;
+}
+ul#address li:last-child, ul#customer li:last-child
+{
+	margin-bottom: 25px;
+}
+
+#content>a 
+{
+	color:#ad0000;
+	font:18px "Supermolot Light";
+	display:block;
+	margin:0 auto;
+	width:738px;
+	text-align: right;
+	margin-bottom:25px;
+}
+[type='submit'] 
+{
+	border: none;
+	color:#ad0000;
+    font: 18px "Supermolot Light";
+    cursor: pointer;
+    background: none;
+    padding: 0;
+    margin:15px 30px;
+	border-bottom: 1px solid #f3d3d3;
+	float:right;
+}
+.clear {
+    content: "";
+    display: block;
+    height:0;
+	width:0;
+	border-top:none;
+	margin:0;
+	background-color:#fff;
+    clear: both;
+	visibility:hidden;
+}

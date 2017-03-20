@@ -1,0 +1,137 @@
+/*header*/
+
+header
+{
+	width:1170px;
+	height:120px;
+	margin:27px auto 0px;
+}
+header>a.floatLeft
+{
+	width:170px;
+	height:120px;
+	background-color: #ed1651;
+	color:#ffffff;
+	font:33px Supermolot;
+	line-height:25px;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+header>a.floatLeft div
+{
+	margin-top:30px;
+}
+header>a.floatLeft span
+{
+	font:bold 41px Supermolot;
+	line-height:36px;
+	vertical-align: middle;
+}
+.floatLeft
+{
+	float:left;
+}
+.floatRight
+{
+	float:right;
+}
+.categoryMenu
+{
+	margin:0 0 0 170px;
+	width:1000px;
+	height:60px;
+	background-color: #ffffff;
+}
+.categoryMenu form.floatLeft
+{
+	text-transform: uppercase;
+	text-align: center;
+	margin:0;
+}
+header .categoryMenu form.floatLeft button
+{
+	text-decoration: none;
+	font:14px Supermolot;
+	color: #000000;
+	width:133px;
+	display:block;
+	height:60px;
+	border:none;
+	border-bottom: 1px solid #021563;
+	background-color: #ffffff;
+}
+
+.categoryMenu form.floatLeft a span
+{
+	display: inline-block;
+    vertical-align: middle;
+}	
+.categoryMenu form.floatLeft button:hover
+{
+	color: #f8f8f8;
+	background-color: #021563;
+}
+.categorys {width:800px;margin-right:0;}
+.enter
+{
+	width:188px;
+	height:37px;
+	margin-left:812px;
+	font:14px 'Supermolot Light';
+	padding-top: 23px;
+}
+.enter a
+{
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+}
+#enter
+{
+	margin-left:6px;
+	margin-right:20px;
+	color: #ed1651;
+	border-bottom: 1px dotted #ed1651;
+}
+#logOut
+{
+	display:inline;
+	cursor:pointer;
+	color: #0000;
+	border-bottom: 1px dotted #000;
+}
+
+.cart
+{
+	width: 203px;
+	height:60px;
+	background-color: #021563;
+	cursor:pointer;
+}
+.suma
+{
+	font: bold 20px Supermolot;
+	color:#ffffff;
+	display:inline;
+}
+.suma span
+{
+	font: 14px Supermolot;
+}
+.object
+{
+	color:#999999;
+	font: 12px Supermolot;
+	display:inline;
+}
+#cartIcon
+{
+	margin: 12px 12px 13px auto;
+	float: right;
+}
+.cart .floatLeft
+{
+	margin: 10px 10px 15px 15px;
+	line-height: 15px;
+}
+.hidden {display:none !important;}

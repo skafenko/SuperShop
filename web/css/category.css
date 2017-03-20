@@ -1,0 +1,279 @@
+@font-face {
+    font-family:Supermolot; 
+    src: url(../fonts/Supermolot Light.otf); 
+}
+body
+{
+	margin:0 auto;
+	background-color: #e4e0d6;
+	max-width:1400px;
+	min-width:1200px;
+}
+	
+body>p
+{
+	width:1170px;
+	font:italic 72px "Supermolot Thin";
+	color:#000000;
+	line-height:60px;
+	margin: 50px auto 0;
+}
+body>p>span
+{
+	color:#999999;
+	font:14px "Supermolot Light";
+	display:block;
+	margin-top:10px;
+}
+.name
+{
+	text-transform: uppercase;
+	font: italic bold 75px Supermolot;
+	color:#000000;
+	line-height:63px;
+	margin-bottom:8px;
+	width:570px;
+	padding:0px;
+}
+.promo
+{
+	
+	text-transform: uppercase;
+	font:italic 72px 'Supermolot Light';
+	color:#000000;
+	line-height:63px;
+}
+#Goods
+{
+	width:1170px;
+	height:auto;
+	overflow:hidden;
+	margin:25px auto 20px;
+	position:relative;
+	background-color: #f6f6f6;
+}
+#Goods .info
+{
+	height:325px;
+	width:877px;
+	/* background-image: url(../images/info.jpg); */
+}
+.info div
+{
+	height:100%;
+	font:italic 38px "Supermolot";
+	color:#000000;
+	line-height: 36px;
+	/* margin-top:80px; */
+	/* margin-left:45px; */
+}
+
+.info div p {padding-left:10px; margin-left:45px;margin-right:25px;background: rgba(179, 170, 165, 0.5); border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;}
+.info div span
+{
+	
+	font:14px "Supermolot Light";
+	line-height: 24px;
+	display:block;
+}
+
+#Goods form.floatRight
+{
+	margin:0;
+	margin-top:4px;
+	height:650px;
+	width:586px;
+	background-image:url(../images/layer1.jpg);
+}
+.product_price
+{
+	height:325px;
+	width: 290px;
+	margin: 1px 1px 1px 1px;
+	position: relative;
+	z-index:0;
+	overflow:hidden;
+	vertical-align: top;
+}
+.product_price:after{display:block;height: 17px;width: 196px;box-shadow: inset 0px -50px 18px -36px rgb(255, 255, 255);bottom: 0px;position:absolute;content:"";box-sizing:border-box;left:0;z-index: 200;}
+.product_price:hover {cursor: pointer;z-index:12;}
+.product_price:hover .wrap{position: absolute;z-index: 111;top:0; /*outline:2px solid #000;*/background-color: #fff; overflow:inherit; box-sizing:border-box;}
+.product_price:hover:after{box-shadow:none;}
+.wrapUp {
+    overflow: hidden;
+    background-color: #fff;
+}
+#offer
+{
+	text-transform: uppercase;
+	font:italic bold 36px Supermolot;
+	line-height: 36px;
+	color:#000000;
+	margin-top:55px;
+	margin-left:50px;
+	width:300px;
+	cursor: pointer;
+}
+#offer span
+{
+	text-transform: none;
+	font: 14px "Supermolot light";
+	line-height:24px;
+	color:#555555;
+}
+#offer p
+{
+	text-transform: none;
+	color:#ed1651;
+	line-height: normal;
+	margin-top:80px;
+	margin-bottom:15px;
+	
+}
+#look
+{
+	width:170px;
+	height:50px;
+	border:3px solid #ed1651;
+	font:italic 18px Supermolot;
+	text-align: center;
+	text-decoration: none;
+	color:#000000;
+	display:block;
+	cursor: pointer;
+	line-height: 50px;
+}
+
+#hidden
+{
+	margin:0px;
+	clear:both;
+	width:0px;
+	height:0px;
+}
+
+#page
+{
+	display:block;
+	clear:both;
+	height:30px;
+	background-color: #ffffff;
+	margin:24px 0;
+}
+
+#page>div
+{
+	margin-right:30px;
+	text-align:right;
+	font:14px "Supermolot Light";
+	color:#333333;
+	
+}
+#page>div nav
+{
+	width:30px;
+	height:30px;
+	margin-left:5px;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	font:12px Bender;
+	color:#333333;
+	background-color:#e9e9e9;
+}
+#page>div nav:hover
+{
+	background-color:#ed1651;
+	color:#ffffff;
+	cursor:pointer;
+}
+#page>div nav span
+{
+	display:block;
+	margin: 9px 0;
+}
+
+
+
+.image
+{
+	height:240px;
+	width:291px;
+	overflow:hidden;
+	vertical-align: middle;
+	text-align: center;
+	position:relative;
+	background-color: #fff;
+}
+img[alt="hot"], img[alt="new"], img[alt="sale"]
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.namePrice
+{
+	height:70px;
+	text-align: center;
+	font:italic 18px "Supermolot Light";
+	color: #ed1651;
+	background-color: #ffffff;
+	padding-top:15px;
+	
+}
+div.namePrice p.floatLeft
+{
+	color: #555;
+	font: 14px Supermolot;
+	line-height: 18px;
+	margin:0 0 0 20px;
+	width:155px;
+}
+div.namePrice em
+{
+	display:block;
+}
+div.namePrice span
+{
+	font-size: 14px;
+	color: #999;
+	text-decoration: line-through;
+	margin:0 0 0 187px;
+	display:block;
+}
+
+footer{
+	background:#01104c;
+	width:1170px;
+	margin:0 auto 35px;
+}
+footer ul
+{
+	list-style-type:none;
+	width:700px;
+}
+footer ul li{
+	font:11px "Supermolot Light";
+	color:#999999;
+	line-height: 13px;
+}
+footer a{
+	background:url(../images/arrowUp.png)no-repeat 58px 14px;
+	font-size:16px;
+	color:#ffffff;
+	float:left;
+	padding:10px 25px 0 0;
+	margin-top:20px;
+	margin-left:320px;
+	text-decoration:none;
+}
+footer:after {
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.hidden {display:none;}
+
+

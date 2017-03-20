@@ -1,0 +1,109 @@
+body
+{
+	margin:0 auto;
+	background-color: #e4e0d6;
+	max-width:1400px;
+	min-width:1200px;
+}
+
+
+/* category and come back */
+body>p
+{
+	text-transform: uppercase;
+	width:1170px;
+	font:italic 72px "Supermolot Light";
+	color:#000000;
+	line-height:60px;
+	margin: 50px auto 25px;
+}
+
+
+/* shopping_cart */
+#accordion
+{
+	width:1170px;
+	height:auto;
+	margin:0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 0 1px #d1cec4;
+    -moz-box-shadow: 0px 1px 0 1px #d1cec4;
+    box-shadow: 0px 1px 0 1px #d1cec4;
+}
+#order
+{
+	font:18px "Supermolot Light";
+	color:#555555;
+	margin-left:30px;
+	width:440px;
+	height:auto;
+}
+#order p
+{
+	padding-top:30px;
+	font:bold 24px Supermolot;
+	color:#000000;
+}
+#order p span
+{
+	color:#ed1651;
+}
+
+
+#confirm
+{
+	background-color:#ed1651;
+	height:auto;
+	width:auto;
+	border:none;
+	display:inline-block;
+	font:18px "Supermolot Light";
+	padding:22px 30px 18px 28px;
+	margin:30px 0 100px 30px;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.clear 
+{
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+/* footer */
+
+footer{
+	background:#01104c;
+	width:1170px;
+	margin:20px auto 35px;
+}
+footer ul
+{
+	list-style-type:none;
+	width:700px;
+}
+footer ul li{
+	font:11px "Supermolot Light";
+	color:#999999;
+	line-height: 13px;
+}
+footer a{
+	background:url(../images/arrowUp.png)no-repeat 58px 14px;
+	font-size:16px;
+	color:#ffffff;
+	float:left;
+	padding:10px 25px 0 0;
+	margin-top:20px;
+	margin-left:320px;
+	text-decoration:none;
+}
+footer::after {
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
