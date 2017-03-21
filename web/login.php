@@ -75,7 +75,7 @@ if (isset($_POST['logIn']))
 																pattern="(?=^.{3,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*"
 																required><br>
 				<input type="submit" name="logIn" value="Войти">
-				<a href="passwordRecovery.php">Забыли пароль</a>
+				
 			</legend>
 		</form>
 		<p>Новый пользователь</p><br>
